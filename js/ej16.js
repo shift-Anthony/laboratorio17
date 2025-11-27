@@ -30,6 +30,5 @@ boton.addEventListener('click', () => {
     procesarLista(misNumeros)
         .then(() => {
             log("Proceso completado");      
-            const ultimoMsg = consola.lastElementChild;
         });
 });
